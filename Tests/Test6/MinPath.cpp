@@ -60,6 +60,10 @@ public:
 			}
 		}
 	}
+	~Graph()
+	{
+	     delete[] graph;
+	}
 private:
 	long long v;
 	vector<pair<long long, long long>>*graph;
