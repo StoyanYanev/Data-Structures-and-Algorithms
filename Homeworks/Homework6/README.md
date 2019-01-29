@@ -2,7 +2,7 @@
 
 The height of a binary tree is the number of edges between the tree&#39;s root and its furthest leaf. For example, the following binary tree is of height :
 
-![Image 1](/Data-Structures-and-Algorithms/tree/master/Homeworks/Homework6/1.png)
+![Image 1](/1.png)
 
 Complete the _getHeight_ or _height_ function in the editor. It must return the height of a binary tree as an integer.
 
