@@ -91,7 +91,6 @@ MinInt \&lt; ID \&lt; MaxInt
 3 4
 
 ```
-
 ```
 **Задача 2. (****MinDistanceBetweenOrdersAndDeliveries****)**
 
