@@ -1,4 +1,4 @@
-**Задача 1.(****HeightOfABinaryTree)**
+**Задача 1.(HeightOfABinaryTree)**
 
 The height of a binary tree is the number of edges between the tree&#39;s root and its furthest leaf. For example, the following binary tree is of height :
 
@@ -41,14 +41,14 @@ The longest root-to-leaf path is shown below:
 
 There are  nodes in this path that are connected by  edges, meaning our binary tree&#39;s .
 
-**Задача 2.(****TopView****)**
+**Задача 2.(TopView)**
 
 You are given a pointer to the root of a binary tree. Print the top view of the binary tree.
 Top view means when you look the tree from the top the nodes, what you will see will be called the top view of the tree. See the example below.
 You only have to complete the function.
 
 For example :
-'''
+```
    1
 
     \
@@ -66,7 +66,7 @@ For example :
       \
 
        4
-'''
+```
 Top View : 1 -> 2 -> 5 -> 6
 
 **Input Format**
@@ -86,7 +86,7 @@ void topView(node \* root) {
 Print the values on a single line separated by space.
 
 **Sample Input**
-'''
+```
    1
 
     \
@@ -104,13 +104,13 @@ Print the values on a single line separated by space.
       \
 
        4
-'''
+```
 **Sample Output**
 
 1 2 5 6
 
 **Explanation**
-'''
+```
    1
 
     \
@@ -128,5 +128,5 @@ Print the values on a single line separated by space.
       \
 
        4
-'''
+```
 From the top only nodes 1,2,5,6 will be visible.
