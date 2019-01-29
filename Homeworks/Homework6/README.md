@@ -27,7 +27,7 @@ Your function should return a single integer denoting the height of the binary t
 
 **Sample Input**
 
- ![Image 2](/2.png)
+ ![Image 2](2.png)
 
 **Sample Output**
 
@@ -37,7 +37,7 @@ Your function should return a single integer denoting the height of the binary t
 
 The longest root-to-leaf path is shown below:
 
-![Image 3](/3.png)
+![Image 3](3.png)
 
 There are  nodes in this path that are connected by  edges, meaning our binary tree&#39;s .
 
