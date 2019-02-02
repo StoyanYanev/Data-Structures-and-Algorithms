@@ -189,25 +189,33 @@ private:
 				}
 				else
 				{
-					if (node->left == NULL)
+					if (node->left == NULL && node->right == NULL)
 					{
-						Node*temp = node->right;
 						delete node;
-						return temp;
+						node = NULL;
 					}
-					if (node->right == NULL)
+					else if (node->left == NULL)
 					{
-						Node*temp = node->left;
-						delete node;
-						return temp;
+						Node* temp = node;
+						node = node->right;
+						delete temp;
 					}
-					Node*temp = MinValueNode(root->right);
-					node->key = temp->key;
-					node->right = DeleteElement(root->right, temp->key);
+					else if (node->right == NULL)
+					{
+						Node* temp = node;
+						node = node->left;
+						delete temp;
+					}
+					else
+					{
+						Node* temp = MinValueNode(node->right);
+						node->key = temp->key;
+						node->right = DeleteElement(node->right, temp->key);
+					}
 				}
-				return node;
 			}
 		}
+		return node;
 	}
 
 	void Prefix(Node* node) // root left right
